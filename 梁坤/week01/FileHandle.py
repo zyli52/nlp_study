@@ -50,7 +50,7 @@ def predict_tokenized_ml(text:str) -> str :
 client = OpenAI(
     # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key="sk-xxx",
     # https://bailian.console.aliyun.com/?tab=model#/api-key
-    api_key="sk-836683f6f2b04caeb9486c58be703604",
+    api_key="sk-8366xxxxxc58be703604",
 
     # 大模型厂商的地址，阿里云
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
